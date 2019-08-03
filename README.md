@@ -4,7 +4,7 @@
 </p>
 
 # Stack overflow assistant chatbot
-We designed and developed a chatbot that can talk with user through some normal conversations(without context). If users ask some programming related questions like 'What's the dataframe in pandas', this bot could recognize related programming language(like in this question language is python, but there is no 'python' in the sentence) and recommend the most similar question on [Stack Overflow](https://stackoverflow.com/). 
+We designed and developed a chatbot that can talk with users through some normal conversations(without context). If users ask some programming related questions like 'What's the dataframe in pandas', this bot could recognize related programming language(like in this question language is python, but there is no 'python' in the sentence) and recommend the most similar question on [Stack Overflow](https://stackoverflow.com/). 
 ## Requirement
 - You could find the requirements for this project [here](requirements.txt).
 - We recommend to run the project in docker as well. 
