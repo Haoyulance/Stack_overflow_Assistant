@@ -22,13 +22,13 @@ In this project we mostly focus on Natural Language Understanding: intent classi
 - In order to improve the performance of NLU, we used pretrained BERT to do question_to_vec and ranked most similar one in the related vectorized tag corpus to give the best recommendation. 
 
 ## How does it look like
-### - conversations of questions classified as stackoverflow one
+### - conversations of questions classified as normal one
 <p align="center">
 <img src="image/image5.jpeg" width="50%"/>
 <img src="image/image4.jpeg" width="50%"/>
 </p>
 
-### - conversations of questions classified as normal one
+### - conversations of questions classified as stackoverflow one
 <p align="center">
 <img src="image/image1.jpeg" width="50%"/>
 <img src="image/image2.jpeg" width="50%"/>
