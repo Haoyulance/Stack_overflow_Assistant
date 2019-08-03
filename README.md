@@ -18,7 +18,7 @@ Task-oriented dialog system structure is as follow:
 In this project we mostly focus on Natural Language Understanding: intent classifier and slot tagger.
 
 - We trained intent classifier by concatenating two datasets: movie dialogues and StackOverflow posts. This intent classifier could figure out the intention of questions and it got 0.994 accuracy on the test set. 
-- After getting the intention, the next step is to do the slot tagging. Since we used the dataset with 10 programming languages, tag classifier has to predict corresponding tag based on the question. Model got 0.884 accuracy at this part. 
+- After getting the intention, the next step is to do the slot tagging. Since we used the dataset with 10 programming languages, tag classifier has to predict corresponding tag based on the question. Model got 0.882 accuracy at this part. 
 - In order to improve the performance of NLU, we used pretrained BERT to do question_to_vec and ranked most similar one in the related vectorized tag corpus to give the best recommendation. 
 
 ## How does it look like
