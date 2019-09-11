@@ -36,3 +36,4 @@ In this project we mostly focus on Natural Language Understanding: intent classi
 
 ## What to do next
 Current chit-chat function is implemented by pre-trained neural network engine by [ChatterBot](https://chatterbot.readthedocs.io/en/stable/), which builds a ranking system that scores predefined replicas given the question. However, this method always generates unsuccessful conversations. We could train the chit-chat part by seq2seq + attention-mechanism which is popular in machine translation and dialogue systems. This updated part is coming soon! 
+
